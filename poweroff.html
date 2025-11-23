@@ -1,8 +1,6 @@
-<!doctype html>
-<html lang="pl">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+<html lang="pl"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>To już koniec — Zamknięcie serwera</title>
   <style>
     :root{--bg1:#0f172a;--bg2:#0b1220;--accent:#7c5cff;--muted:#aab3c7}
@@ -27,41 +25,41 @@
   <main class="card" role="main">
     <div class="center" style="justify-content:space-between">
       <div style="display:flex;gap:14px;align-items:center">
-        <div class="logo">X</div>
+        
         <div>
-          <h1>To już koniec — zamknięcie serwera</h1>
-          <p class="lead">Niestety ogłaszamy zamknięcie naszego serwera oraz zakończenie sprzedaży e-booków. Dziękujemy wszystkim, którzy byli z nami przez ten czas — to dzięki Wam powstała ta społeczność.</p>
+          <h1>To już koniec</h1>
+          <p class="lead">Niestety ogłaszamy zamknięcie naszego serwera oraz zakończenie sprzedaży. Dziękujemy wszystkim, którzy byli z nami przez ten czas to dzięki Wam powstała ta społeczność.</p>
         </div>
       </div>
       <div style="text-align:right">
-        <div class="pill">Data: <strong id="closeDate"></strong></div>
+        <div class="pill">Data: <strong id="closeDate">23 listopada 2025</strong></div>
       </div>
     </div>
 
-    <div class="meta" aria-hidden>
+    <div class="meta" aria-hidden="">
       <div class="pill">Powód: brak dalszego utrzymania / nowe plany</div>
-      <div class="pill">Kontakt: <span id="contactText">[wstaw-nick-email]</span></div>
-      <div class="pill">Pliki: e-booki przestaną być dostępne po zamknięciu</div>
+      <div class="pill">Już wkrótce: https://svckill.github.io/ <span id="contactText"></span></div>
+      
     </div>
 
     <div style="margin-top:6px">
       <p style="color:var(--muted)">Co możesz zrobić teraz:</p>
       <ul style="color:var(--muted);margin-top:8px">
         <li>Skontaktuj się z administracją, jeśli masz pilne sprawy.</li>
-        <li>Pobierz zakupione e-booki i kopie zapasowe, jeśli ich jeszcze nie masz.</li>
-        <li>Jeśli chcesz pozostać w kontakcie — zostaw maila lub napisz do nas.</li>
+        
+        
       </ul>
     </div>
 
     <div class="actions" style="margin-top:18px">
-      <button class="btn btn-primary" onclick="location.href='mailto:kontakt@twojadomena.pl?subject=Zapytanie%20dot.%20zamkni%C4%99cia'">Napisz do nas</button>
+      
       <button class="btn btn-ghost" onclick="copyText()">Kopiuj treść ogłoszenia</button>
       <button class="btn btn-ghost" onclick="downloadHtml()">Pobierz stronę (index.html)</button>
     </div>
 
     <footer>
-      <div id="copied" style="display:none;color:#9fe0a6;margin-top:8px">Skopiowano!</div>
-      <div style="margin-top:8px">Jeśli chcesz, mogę zmodyfikować tę stronę — np. dodać grafikę, linki do sociali, lub inny tekst.</div>
+      <div id="copied" style="display: none; color: rgb(159, 224, 166); margin-top: 8px;">Skopiowano!</div>
+      
     </footer>
   </main>
 
@@ -85,5 +83,7 @@
       document.body.appendChild(a); a.click(); a.remove();
     }
   </script>
-</body>
-</html>
+
+
+
+</body></html>
